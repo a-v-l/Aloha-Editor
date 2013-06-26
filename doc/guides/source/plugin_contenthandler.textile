@@ -40,7 +40,7 @@ h4. Using Configuration
 		initEditable: [ 'sanitize' ],
 		getContents: [ 'blockelement', 'sanitize', 'basic' ],
 		word: { preserveStyles: ['font-family', 'font-size', 'color', 'background-color'] },
-		sanitize: 'relaxed' // relaxed, restricted, basic,
+		sanitize: 'relaxed', // relaxed, restricted, basic,
 		allows: {
 			elements: [
 				'strong', 'em', 'i', 'b', 'blockquote', 'br', 'cite', 'code', 'dd', 'div', 'dl', 'dt', 'em',
